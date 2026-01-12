@@ -15,7 +15,15 @@ A web application that predicts music genres, extracts audio features, and recom
 
 ## 🧠 Machine Learning Model
 
-The application uses a trained TensorFlow model that can classify songs into 10 genres:
+
+The application uses a Convolutional Neural Network (CNN) built with TensorFlow and Keras to classify songs into 10 music genres.  
+The model was trained on extracted audio features (MFCCs and spectral features) and achieved:
+
+- **Training Accuracy:** 99.56%
+- **Validation Accuracy:** 92.65%
+
+These results demonstrate strong feature learning and effective generalization on unseen audio data.
+### Supported Genres
 - Blues
 - Classical
 - Country
